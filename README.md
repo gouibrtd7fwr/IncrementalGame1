@@ -1,2 +1,2 @@
 # IncrementalGame1
-A simple incremental
+A simple incremental (Im going to make this later lol)
