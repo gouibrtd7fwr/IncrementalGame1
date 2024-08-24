@@ -1,3 +1,3 @@
 function increaseStone() {
-    stone.add(stoneGain)
+    game.stone = game.stone.add(game.stoneGain)
 }
