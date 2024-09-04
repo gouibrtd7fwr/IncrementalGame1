@@ -2,16 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>SomeIncrementalGame</title>
-        <link rel="stylesheet" href="98.css" />
-        <script>"scripts/break_eternity.js"</script>
-        <script>"scripts/stone.js"</script>
     </head>
-    <body>
-        <p class="titleText">You have <a id="stone">0</a> stone</p>
-        <button style="min-width: 74px" onclick="increaseStone()">Get stone</button><br>
+    <body onload="game()">
+        <p class="titleText">You have <a id="number">0</a> number</p>
+        <button style="min-width: 74px" onclick="addNum()">Get number</button><br>
         <div class="window-body" style="max-height: calc(95vh - 75px); overflow: auto">
         </div>
     </div>
+    <script src="scripts/break_eternity.js"></script>
+    <script src="scripts/Scripts.js"></script>
+    <script src="scripts/game.js"></script>
     </body>
 </html>
